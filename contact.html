@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Data from database</h1>
+        <table border=1px>
+            <tr>
+                <th>Name</th>
+                <th>Place</th>
+            </tr>
+        {% for i in x %}
+        <tr>
+            <td>{{i.Name}}</td>
+            <td> {{i.City}}</td>
+        </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>
